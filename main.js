@@ -40,41 +40,6 @@ const app = {
             path: './assets/music/song3.mp3',
             image: './assets/img/1.jpg',
         },
-        {
-            name: 'Anh không thể 2',
-            singer: 'MONO',
-            path: './assets/music/song3.mp3',
-            image: './assets/img/1.jpg',
-        },
-        {
-            name: 'Anh không thể 3',
-            singer: 'MONO',
-            path: './assets/music/song3.mp3',
-
-            image: './assets/img/1.jpg',
-        },
-        {
-            name: 'Anh không thể 4',
-            singer: 'MONO',
-            path: './assets/music/song3.mp3',
-
-            image: './assets/img/1.jpg',
-        },
-        {
-            name: 'Anh không thể 5',
-            singer: 'MONO',
-            path: './assets/music/song3.mp3',
-
-            image: './assets/img/1.jpg',
-        },
-        {
-            name: 'Anh không thể 6',
-            singer: 'MONO',
-            path: './assets/music/song3.mp3',
-
-            image: './assets/img/1.jpg',
-        },
-        
         
     ],
     render: function (){
@@ -138,7 +103,6 @@ const app = {
         document.onscroll = function(){
            const scrollTop = window.scrollY || document.documentElement.scrollTop
            const newCdWidth = cdWidth - scrollTop
-
            cd.style.width = newCdWidth > 0 ? newCdWidth + 'px' : 0
            cd.style.opacity = newCdWidth / cdWidth
         };
